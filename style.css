@@ -110,9 +110,21 @@
     color: var(--tertiary);
     margin: 0;
     padding: 5px 10px;
+    position: relative;
+    display: flex;
     font-size: 2.3rem;
     line-height: 1.2;
     display: inline;
+    z-index: 2;
+  }
+
+  .hero-banner img {
+      display: flex;
+      height: 150px;
+      left: 50px;
+      max-width: 100%;
+      position: relative;
+      z-index: 1;
   }
   
   .page-wrapper {
@@ -286,8 +298,19 @@
     }
   
     .hero-banner {
+      align-items: center;
+      flex-wrap: wrap;
       justify-content: center;
       text-align: center;
+    }
+
+    .hero-banner img {
+        align-items: center;
+        bottom: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        text-align: center;
     }
   
     .contact address {

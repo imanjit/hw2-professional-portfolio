@@ -89,9 +89,9 @@
   .hero-banner {
     background: rgb(33, 80, 16);
     background-image: url("fall.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    background-blend-mode:soft-light;
+    background-blend-mode: soft-light;
     min-height: 30vh;
     color: var(--light);
     padding: 2% 6%;
@@ -178,9 +178,9 @@
     padding: 0 0 20px 0;
     margin: 0.5em;
     text-decoration: none;
-    background-blend-mode:multiply;
+    background-blend-mode: multiply;
     background-size: 100%;
-    transition: all 0.5s;
+    transition: all 0.25s;
     font-size: 0.9rem;
   }
   

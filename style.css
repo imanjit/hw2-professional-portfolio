@@ -4,8 +4,8 @@
   
   :root {
     --primary: rgb(135, 91, 91);
-    --secondary: rgb(233, 142, 142);
-    --tertiary: rgb(55, 30, 30);
+    --secondary: rgb(255, 176, 38);
+    --tertiary: rgb(74, 30, 0);
     --dark: rgba(28, 29, 33, 1);
     --light: rgb(253, 254, 237);
   }
@@ -87,7 +87,7 @@
   
   .hero-banner {
     background: rgb(33, 80, 16);
-    background-image: url("./images/fall.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("./images/abstract.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;

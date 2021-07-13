@@ -231,24 +231,24 @@
   }
   
   /* portfolio project images */
-  .run-buddy {
-    background-image: url("./images/running.jpg");
+  .tech-blog {
+    background-image: url("./images/blog.jpg");
   }
   
-  .led-wall {
-    background-image: url("./images/led.jpg");
+  .work-day-scheduler {
+    background-image: url("./images/productive.jpg");
   }
   
-  .react-calc {
-    background-image: url("./images/calculator.jpg");
+  .team-profile {
+    background-image: url("./images/team.png");
   }
   
-  .pastel-puzzles {
-    background-image: url("./images/pastel.jpg");
+  .note-taker {
+    background-image: url("./images/notes.jpg");
   }
   
-  .surf-report {
-    background-image: url("./images/surf.jpg");
+  .sports_box {
+    background-image: url("./images/sports.png");
   }
   
   /* end portfolio project images */

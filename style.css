@@ -2,7 +2,6 @@
     box-sizing: border-box;
   }
   
-  /* brand color palette */
   :root {
     --primary: rgb(135, 91, 91);
     --secondary: rgb(233, 142, 142);
@@ -88,7 +87,7 @@
   
   .hero-banner {
     background: rgb(33, 80, 16);
-    background-image: url("fall.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("./images/fall.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -233,23 +232,23 @@
   
   /* portfolio project images */
   .run-buddy {
-    background-image: url("running.jpg");
+    background-image: url("./images/running.jpg");
   }
   
   .led-wall {
-    background-image: url("led.jpg");
+    background-image: url("./images/led.jpg");
   }
   
   .react-calc {
-    background-image: url("calculator.jpg");
+    background-image: url("./images/calculator.jpg");
   }
   
   .pastel-puzzles {
-    background-image: url("pastel.jpg");
+    background-image: url("./images/pastel.jpg");
   }
   
   .surf-report {
-    background-image: url("surf.jpg");
+    background-image: url("./images/surf.jpg");
   }
   
   /* end portfolio project images */

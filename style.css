@@ -88,7 +88,7 @@
   
   .hero-banner {
     background: rgb(33, 80, 16);
-    background-image: url("./images/abstract.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("./assets/abstract.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -234,23 +234,23 @@
   
   /* portfolio project images */
   .tech-blog {
-    background-image: url("./images/blog.jpg");
+    background-image: url("./assets/blog.jpg");
   }
   
   .work-day-scheduler {
-    background-image: url("./images/productive.jpg");
+    background-image: url("./assets/productive.jpg");
   }
   
   .team-profile {
-    background-image: url("./images/team.png");
+    background-image: url("./assets/team.png");
   }
   
   .note-taker {
-    background-image: url("./images/notes.jpg");
+    background-image: url("./assets/notes.jpg");
   }
   
   .sports_box {
-    background-image: url("./images/sports.png");
+    background-image: url("./assets/sports.png");
   }
   
   /* end portfolio project images */
